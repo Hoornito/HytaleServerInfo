@@ -1,0 +1,18 @@
+package com.hypixel.hytale.server.core.modules.entity.damage;
+
+import javax.annotation.Nullable;
+
+public class ArmorResistanceModifiers {
+  public int flatModifier;
+  
+  public float multiplierModifier;
+  
+  @Nullable
+  public DamageCause inheritedParentId;
+}
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\com\hypixel\hytale\server\core\modules\entity\damage\DamageSystems$ArmorDamageReduction$ArmorResistanceModifiers.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.1.3
+ */

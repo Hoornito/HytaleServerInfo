@@ -1,0 +1,13 @@
+package io.netty.util;
+
+public interface AttributeMap {
+  <T> Attribute<T> attr(AttributeKey<T> paramAttributeKey);
+  
+  <T> boolean hasAttr(AttributeKey<T> paramAttributeKey);
+}
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\io\nett\\util\AttributeMap.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

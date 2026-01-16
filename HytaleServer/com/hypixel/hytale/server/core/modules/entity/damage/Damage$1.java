@@ -1,0 +1,9 @@
+package com.hypixel.hytale.server.core.modules.entity.damage;
+
+class null implements Damage.Source {}
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\com\hypixel\hytale\server\core\modules\entity\damage\Damage$1.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.1.3
+ */

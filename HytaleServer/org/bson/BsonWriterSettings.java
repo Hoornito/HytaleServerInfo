@@ -1,0 +1,57 @@
+/*    */ package org.bson;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ public class BsonWriterSettings
+/*    */ {
+/*    */   private final int maxSerializationDepth;
+/*    */   
+/*    */   public BsonWriterSettings(int maxSerializationDepth) {
+/* 33 */     this.maxSerializationDepth = maxSerializationDepth;
+/*    */   }
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */   
+/*    */   public BsonWriterSettings() {
+/* 40 */     this(1024);
+/*    */   }
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */   
+/*    */   public int getMaxSerializationDepth() {
+/* 49 */     return this.maxSerializationDepth;
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\org\bson\BsonWriterSettings.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

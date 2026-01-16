@@ -1,0 +1,15 @@
+package com.hypixel.hytale.server.npc.asset.builder.validators;
+
+public abstract class StringArrayValidator extends Validator {
+  public abstract boolean test(String[] paramArrayOfString);
+  
+  public abstract String errorMessage(String paramString, String[] paramArrayOfString);
+  
+  public abstract String errorMessage(String[] paramArrayOfString);
+}
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\com\hypixel\hytale\server\npc\asset\builder\validators\StringArrayValidator.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.1.3
+ */

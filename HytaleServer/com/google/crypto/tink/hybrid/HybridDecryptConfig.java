@@ -1,0 +1,57 @@
+/*    */ package com.google.crypto.tink.hybrid;
+/*    */ 
+/*    */ import com.google.crypto.tink.Config;
+/*    */ import java.security.GeneralSecurityException;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ @Deprecated
+/*    */ public final class HybridDecryptConfig
+/*    */ {
+/*    */   @Deprecated
+/*    */   public static void registerStandardKeyTypes() throws GeneralSecurityException {
+/* 49 */     Config.register(HybridConfig.TINK_1_0_0);
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\com\google\crypto\tink\hybrid\HybridDecryptConfig.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

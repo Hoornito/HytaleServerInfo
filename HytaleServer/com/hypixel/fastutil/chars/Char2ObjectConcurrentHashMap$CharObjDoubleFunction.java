@@ -1,0 +1,12 @@
+package com.hypixel.fastutil.chars;
+
+@FunctionalInterface
+public interface CharObjDoubleFunction<V, J> {
+  J apply(char paramChar, V paramV, double paramDouble);
+}
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\com\hypixel\fastutil\chars\Char2ObjectConcurrentHashMap$CharObjDoubleFunction.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.1.3
+ */

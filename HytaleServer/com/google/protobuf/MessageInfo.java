@@ -1,0 +1,16 @@
+package com.google.protobuf;
+
+@CheckReturnValue
+interface MessageInfo {
+  ProtoSyntax getSyntax();
+  
+  boolean isMessageSetWireFormat();
+  
+  MessageLite getDefaultInstance();
+}
+
+
+/* Location:              C:\Users\Agustin\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar!\com\google\protobuf\MessageInfo.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */
